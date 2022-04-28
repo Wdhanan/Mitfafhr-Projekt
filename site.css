@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .grid-layout{
     display:grid;
-    grid: "head "    10vh
+    grid: "head "    7vh
           "main"     60vh
           "rechts2"  35vh
-          "unten"    25vh
+          "unten"    10vh
           / 4fr;
            
      }
@@ -12,16 +12,16 @@
 @media  (min-width: 700px) {
   .grid-layout {
    display:grid;       
-   grid: "head  head"     10vh
+   grid: "head  head"     7vh
       "main  rechts2"  100vh
-      "unten unten"    20vh
+      "unten unten"    10vh
      / 3fr   1fr;
           
   }
 }
 
 .header{
-background-color:gray;
+background-color: #D8D8D8;
 grid-area:head;
 padding: 15px;
 }
@@ -44,6 +44,6 @@ grid-area:rechts2;
 }
 
 .unten{
-background-color:gray;
+background-color: #D8D8D8;
 grid-area: unten;
 }
