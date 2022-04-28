@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.grid-layout{
+    display:grid;
+    grid: "head "    10vh
+          "main"     60vh
+          "rechts2"  35vh
+          "unten"    25vh
+          / 4fr;
+           
+     }
+     
+@media  (min-width: 700px) {
+  .grid-layout {
+   display:grid;       
+   grid: "head  head"     10vh
+      "main  rechts2"  100vh
+      "unten unten"    20vh
+     / 3fr   1fr;
+          
+  }
+}
+
+.header{
+background-color:gray;
+grid-area:head;
+padding: 15px;
+}
+.links{
+grid-area:main;
+}
+.rechts{
+background-color: #FFDEAD;
+grid-area:rechts2;
+}
+#registration {
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ width: 400px;
+ padding: 15px;
+ border: 3px solid #2c3d03;
+ background: #ffe6b3;
+ z-index: 1000; 
+}
+
+.unten{
+background-color:gray;
+grid-area: unten;
+}
