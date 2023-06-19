@@ -1,0 +1,216 @@
+CONNECTED(000001A4)
+---
+Certificate chain
+ 0 s:CN = dulcy.openstreetmap.org
+   i:C = US, O = Let's Encrypt, CN = R3
+-----BEGIN CERTIFICATE-----
+MIIF6jCCBNKgAwIBAgISBK+haEzrWzd7+NIHQMRwRDtwMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMjA2MjUyMjAzMDFaFw0yMjA5MjMyMjAzMDBaMCIxIDAeBgNVBAMT
+F2R1bGN5Lm9wZW5zdHJlZXRtYXAub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAu48F+iIA0CcYh4OccEnUxIT+jvHK0vAQJXo6hrFBA+YweNYDzr0T
+7z6rcrIMkeYoMEvcM/EuDF7yoB71XWyRjd2WzLnp+MVmQySN9UEFKjiJ7BDW0hEg
+0dBD6xD6P3I1gY2fGivYmNrkQCHvDiW9qi6KMxfOXn4SLPM4KvWN5vtosV/lt0qU
+wRCjZCjMuIxnT2KTchPADTJP2O+JOsq/3LQEpn57ZkcpCG+NWBqkPXMoTzu+rI9E
+WZpU95lGkI0NW/wcKvtt3Zt/HjxMvQl9kLnpN0sRVacDNrYndS4jKuMWw/qSSHn8
+Imdy1TTytJyS5SxYRfcDvRbvJ93JicMtRQIDAQABo4IDCDCCAwQwDgYDVR0PAQH/
+BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8E
+AjAAMB0GA1UdDgQWBBS7E4wZtDycaqNeZvKx1X8pzxYhZDAfBgNVHSMEGDAWgBQU
+LrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGG
+FWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmku
+bGVuY3Iub3JnLzCB2AYDVR0RBIHQMIHNghdkdWxjeS5vcGVuc3RyZWV0bWFwLm9y
+Z4IWbm9taW5hdGltLm9wZW5tYXBzLm9yZ4Ibbm9taW5hdGltLm9wZW5zdHJlZXRt
+YXAuY29tghtub21pbmF0aW0ub3BlbnN0cmVldG1hcC5uZXSCG25vbWluYXRpbS5v
+cGVuc3RyZWV0bWFwLm9yZ4Icbm9taW5hdGltLm9wZW5zdHJlZXRtYXBzLm9yZ4IR
+bm9taW5hdGltLm9zbS5vcmeCEm5vbWluYXRpbS5xZ2lzLm9yZzBMBgNVHSAERTBD
+MAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8v
+Y3BzLmxldHNlbmNyeXB0Lm9yZzCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB0AN+l
+Xqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABgZ0atKYAAAQDAEUwQwIf
+RFiXMN2pQTrZ9Cl9IAgLeUd4sTw770MMIDcSDMlvmAIgTaFQfbJSVbMrLz+l1iR5
+zAxPra6aq1QzoiD8p0+rEPQAdwBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8
+cP5tRwAAAYGdGrTMAAAEAwBIMEYCIQDziLjiGP1VIRVydhnkp338k3WtMyYeXCN3
+mOTpzJ6c5wIhAKI0Zetmoxn0aVjjz8l77jgCxNWw5T1MYmHjupaWcLfyMA0GCSqG
+SIb3DQEBCwUAA4IBAQCBN7Xjja+rYAb60EkEOrm0+JDB/Y2MnVx/L6z3LVxFqnKI
+0Vc4ozuetARVXs1bvMdFrpRYcqTC8rnw/rr2pXuR40qHIzy88Monuioeozc/H9qy
+dJiTipYcAuc0+ysegXs0VrqAtal5zsNHPrIleznryOhUt3O+IsmPU1SsHu0880k7
+X2TJsSTl0xRQ6yyvHNp9RhDlAq26JsQnriYWtSMr3HhS1vnI/2dpux0hnWXYy95G
+g66B26WsP4UI+mLxagGoHCjs+ndOoeqX2WW0UfaMRdmESDH9zr7BjVDbP0MtNZR+
+r9uFJWyIoqzf3yRnRx7p0Vh6m/RvBjJDEPIQHIcF
+-----END CERTIFICATE-----
+ 1 s:C = US, O = Let's Encrypt, CN = R3
+   i:C = US, O = Internet Security Research Group, CN = ISRG Root X1
+-----BEGIN CERTIFICATE-----
+MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw
+WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP
+R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx
+sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm
+NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg
+Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG
+/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA
+FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw
+AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw
+Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB
+gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W
+PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl
+ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz
+CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm
+lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4
+avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2
+yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O
+yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids
+hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+
+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv
+MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
+nLRbwHOoq7hHwg==
+-----END CERTIFICATE-----
+ 2 s:C = US, O = Internet Security Research Group, CN = ISRG Root X1
+   i:O = Digital Signature Trust Co., CN = DST Root CA X3
+-----BEGIN CERTIFICATE-----
+MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/
+MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT
+DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC
+ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL
+wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D
+LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK
+4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5
+bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y
+sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ
+Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4
+FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc
+SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql
+PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND
+TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw
+SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1
+c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx
++tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB
+ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu
+b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E
+U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu
+MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC
+5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW
+9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG
+WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O
+he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC
+Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = dulcy.openstreetmap.org
+
+issuer=C = US, O = Let's Encrypt, CN = R3
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4774 bytes and written 409 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Tue, 05 Jul 2022 15:19:02 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: DFBCDF922A266C26F572983BBBB8AD869B642108B922313595528794D9B7A2CD
+    Session-ID-ctx: 
+    Resumption PSK: F1E54A61679005EA77AAF1465D18378C9FD3E4A502CD5ABD39CC516C319FB11B48AC063EE6A790E1D8DE06184E4FBC93
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 1800 (seconds)
+    TLS session ticket:
+    0000 - 15 00 49 eb c3 77 c8 9f-45 f9 27 25 c5 5e bd 69   ..I..w..E.'%.^.i
+    0010 - 9c 7d 61 45 53 50 77 c8-be 25 a1 59 09 0e 4a 41   .}aESPw..%.Y..JA
+    0020 - 80 0d 67 bb 20 1a 3a 96-28 e0 dc f0 6c 66 17 da   ..g. .:.(...lf..
+    0030 - 9a 7c 1a df e8 ad 1c 18-fc 80 e3 dc d6 8c 5c 3b   .|............\;
+    0040 - a8 f4 20 89 cc 55 dd e1-da f6 b7 08 b9 c9 c6 e1   .. ..U..........
+    0050 - 2f 6e c5 4e 16 2e 4f de-9d 86 3b af 89 9a b5 bd   /n.N..O...;.....
+    0060 - 10 87 ec 8e 65 04 90 04-39 2f 1e bf 6d e1 3f 57   ....e...9/..m.?W
+    0070 - 48 1b ea b8 1b b0 a7 5c-ab 06 b1 9f 6d 8c 89 a0   H......\....m...
+    0080 - d8 9e 96 a9 cb 6e 6f 01-35 ed 71 6f 07 a4 4f b3   .....no.5.qo..O.
+    0090 - b3 cf 22 e3 ae e2 80 99-4a 4b 63 75 8a e4 2e a9   ..".....JKcu....
+    00a0 - d1 e6 d5 db 61 a2 67 e5-8e 5c b9 28 ad c9 cd cc   ....a.g..\.(....
+    00b0 - 0a e5 e5 b0 14 a6 f4 d0-d1 f7 cc 3a 5f 4e 9e 3a   ...........:_N.:
+    00c0 - b8 6f 50 7b 37 d2 9f 64-c8 c5 15 89 9c 0a 4d a0   .oP{7..d......M.
+    00d0 - 74 ce c1 cc f0 ff 54 fe-ea 8b fa f4 2e d8 42 49   t.....T.......BI
+    00e0 - c8 77 8a 70 45 fa a2 18-6b 3e 9a e1 ea 8e 7f b5   .w.pE...k>......
+    00f0 - a9 ed 92 b5 68 58 31 3b-76 9b 54 85 d4 b5 72 09   ....hX1;v.T...r.
+
+    Start Time: 1657034266
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: E602F915489DC1955A14CBA7657D7824E94ADA124DC8245F188569A2875A898A
+    Session-ID-ctx: 
+    Resumption PSK: A02BF15C47B0FE35ACE7EA8EC075FE5F467784093082F8F1B6979A24DA93C3B0C3DE0698ED62D368B4189376EC268FBC
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 1800 (seconds)
+    TLS session ticket:
+    0000 - 15 00 49 eb c3 77 c8 9f-45 f9 27 25 c5 5e bd 69   ..I..w..E.'%.^.i
+    0010 - fa 0f 13 7a 62 20 84 1b-6d b1 0f 8e 4a 2e dd 54   ...zb ..m...J..T
+    0020 - a3 53 98 18 f0 f2 a2 75-c5 63 c1 0f 90 fc 25 31   .S.....u.c....%1
+    0030 - 98 21 71 70 b4 70 10 26-0f 28 2b f6 f5 51 2c aa   .!qp.p.&.(+..Q,.
+    0040 - 1a 28 b0 3e 0e 4c d4 ab-39 9b a4 cb d8 ac 76 27   .(.>.L..9.....v'
+    0050 - 99 a5 41 79 0e 5f bc ef-18 55 c0 7d 11 05 5d 3c   ..Ay._...U.}..]<
+    0060 - 67 94 70 f6 a6 6f 54 a3-bf 41 78 8e 2d 17 de 44   g.p..oT..Ax.-..D
+    0070 - 75 f8 67 56 19 10 44 6c-94 a0 ed b4 c7 9b 1f 15   u.gV..Dl........
+    0080 - ad 88 ef 0e c9 50 96 80-a9 8d 43 96 2f 1a 91 3b   .....P....C./..;
+    0090 - 83 51 e8 22 b8 2a 99 b6-54 1c 3a 48 9d 9e 86 b4   .Q.".*..T.:H....
+    00a0 - 97 3e 70 2d b8 5c 2f 82-89 5a 6f 18 7b 1c 20 5d   .>p-.\/..Zo.{. ]
+    00b0 - 47 8b 0f 3f 75 cc 87 fc-ff 12 fb 98 ca b5 d4 fa   G..?u...........
+    00c0 - 8b 6b b6 66 3d 50 8e 88-c9 d1 e9 1d 05 e4 1a 53   .k.f=P.........S
+    00d0 - 41 c0 fd bb b4 04 67 9b-07 0c a7 a0 58 a7 6f c7   A.....g.....X.o.
+    00e0 - e5 a9 ad 27 a2 08 c8 8a-4f b9 89 d9 ac d0 95 98   ...'....O.......
+
+    Start Time: 1657034266
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+closed

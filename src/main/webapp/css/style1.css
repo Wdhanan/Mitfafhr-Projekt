@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  
+}
+.profilBild{
+	height:50px;
+	width:50px;
+}
+.formSuchen{
+	border: 4px solid rgba(0, 0, 0, 0);
+}
+
+.stundenplan{
+	background-color: #f3e2a9;
+}
+#loginError{
+	color:red;
+}
+
+

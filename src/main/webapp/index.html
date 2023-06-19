@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Take Me Along</title>
+<link rel="stylesheet"
+	href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	crossorigin="" />
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin=""></script>
+
+<script src="js/main.js"></script>
+<script src="js/login.js"></script>
+<script src="js/logout.js"></script>
+<script src="js/registrierung.js"></script>
+<script src="js/sicherheit.js"></script>
+
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style1.css">
+
+
+</head>
+<body>
+
+<div id="grid-container">
+    <header class="padding row flex-wrap" >
+    
+        <div class="grid-container">
+	        <div class="grid-item">
+	        	<p><b>Carpooling</b></p>
+	        </div>
+	        
+	        <!-- Anmeldung -->
+	        <div class="grid-item">
+	        
+	        	<table id="hiddenAfterLogin1">
+		        	<tr>
+		        		<td>Benutzer</td><td><input type="text" name="username" id="username"/></td>
+		        		<td>Password</td><td><input type="password" name="password" id="password"/></td>
+		        		<td><button type="button" id="btnSubmit" onclick="login()">Anmelden</button></td>
+		        	</tr>
+		        	
+		        	<tr>
+						<td colspan="2"><div id="loginError"></div></td>
+					<tr>
+	        	</table>
+	        	
+	        	<div id="hiddenBeforLogin1">
+	        		<table>
+	        			<tr>
+	        				<td><button type="button" onclick="getMitfahr()"><b>Mitfahrgelegenheiten</b></button></td>
+	        				<td><button type="button" onclick="getStundenTable()"><b>Mein Stundenplan</b></button></td>
+	        			</tr>
+	        		</table>
+	        	</div>
+	        	
+	        </div>
+	        
+	        <div class="grid-item">
+	        	<a type="submit" class="btnRegister"  id="hiddenAfterLogin2" href="javascript:neurUserRegistrieren()">Als neuer Benutzer registrieren</a>
+	        	
+	        	<table  id="hiddenBeforLogin2" style="float:right;">
+	        		<tr>
+	        			<td><p id="myusernam"></p></td>
+	        			<td id="userImage"><img alt="" src="imgs/profile-1.png" class="profilBild"></td>
+	        			<td><button type="button" class="btnRegister" id="register" onclick="logout()">Abmelden</button></td>
+	        		</tr>
+	        	</table>
+	        </div>
+	        
+	      
+	      
+	        <!-- User Data Zeigen nach Anmeldung -->
+	        
+	        
+        </div>    
+    </header>
+
+    <main id="map-container" style="width: 100%"></main>
+    
+    <!--  Studenplan -->
+    <div id="stundenPlan" class="stundenplan">
+    	<h4>Meine Adresse</h4>
+    	<!-- User Adresse wird in diesem Paragraph angezeigt -->
+    	<div>
+    		<p id="useradresse"></p>
+    	</div>
+    	
+    	
+    	<h1>Mein Stundenplan</h1>
+    	
+    	<!-- Formular -->
+    	<div>
+    		<table>
+    			<tr>
+    				<td><button type="button" onclick="speichernStunden()">Speichern</button></td>
+    			</tr>
+    			
+    			<tr>
+				    <th>Wochentag</th>
+				    <th>Beginn</th>
+				    <th>Ende</th>
+  				</tr>
+  				
+  				<tr>
+				    <td>Montag</td>
+				    <td><input id="montag0" type="text"></td>
+				    <td><input id="montag1" type="text" ></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Dienstag</td>
+				    <td><input id="dienstag0" type="text"></td>
+				    <td><input id="dienstag1" type="text"></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Mittwoch</td>
+				    <td><input id="mittwoch0" type="text"></td>
+				    <td><input id="mittwoch1" type="text"></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Donnerstag</td>
+				    <td><input id="donnerstag0" type="text" ></td>
+				    <td><input id="donnerstag1" type="text" ></td>
+  				</tr>
+  				<tr>
+				    <td>Freitag</td>
+				    <td><input id="freitag0" type="text" ></td>
+				    <td><input id="freitag1" type="text" ></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Samstag</td>
+				    <td><input id="samstag0" type="text" ></td>
+				    <td><input id="samstag1" type="text" ></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Sontag</td>
+				    <td><input id="sonntag0" type="text" ></td>
+				    <td><input id="sonntag1" type="text" ></td>
+  				</tr>
+    		</table>
+    	</div>
+    	
+    	
+    </div>
+    
+     <!--   Formular der Registrierung -->
+    <div id="neuUserRegister" class="stundenplan" style="display:none">
+    	
+    	
+    	<h1>Registrierung</h1>
+    	
+    	
+    	<div>
+    		<table>
+    			
+  				<tr>
+				    <td>Vorname</td>
+				    <td><input id="firstname" type="text"   onkeyup="checkVName()" onblur="checkvNameOnBlur()" onfocus="checkVNameOnFocus()" size="49"/></td>
+				    <td><div id="errorVName"></div> </td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Nachname</td>
+				    <td><input id="lastname" type="text"   onkeyup="checkName()" onblur="checkNameOnBlur()" onfocus="checkNameOnFocus()" size="49"/></td>
+				    <td><div id="errorName"></div> </td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Straße</td>
+				    <td><input id="street" type="text" ><span>Nr: <input id="streetNumber" type="text" ></span></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>PLZ</td>
+				    <td><input id="zip" type="text"   onkeyup="checkPlz()" onblur="checkPlzOnBlur()" onfocus="checkPlzOnFocus()"/>
+				    <span>Ort<input id="city" type="text" name="ort-user"/></span></td>
+				    <td><div id="errorPlz"></div> </td>
+  				</tr>
+  				<tr>
+				    <td>Email</td>
+				    <td><input id="email" type="text"  size="49"onkeyup="checkEmail()"  onblur="checkEmailOnBlur()" onfocus="checkEmailOnFocus()"/></td>
+				    <td><div id="errorEmail"></div> </td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Profilbild</td>
+				    <td><input id="profilbild" accept="image/*" type="file"  size="49"/></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Benutzer-ID</td>
+				    <td><input id="benutzerId" type="text"  size="49"/></td>
+  				</tr>
+  				
+  				<tr>
+				    <td>Password</td>
+				    <td><input id="password1" type="password"  size="49" onkeyup="checkPassword()"/></td>
+				    <tr><td>Passwortsicherheit</td><td><canvas id="pwdCanvas" width="80" height="10"
+					style="border: 1px solid #d3d3d3;"></canvas> &nbsp; <span id="passwdMsg">unsicher</span></td></tr>
+  				</tr>
+  				
+  				<tr>
+  				    
+				    <td><button type="button" onclick="abbrechen()">Abbrechen</button></td>
+				    <td><button id ="btn" type="button" onclick="register()">Registrieren</button></td>
+				    
+  				</tr>
+  				
+  				<tr>
+  					<td  id="loginError1"><span id="registerError"></span></td>
+  					<td id="imageUser"> </td>
+  				</tr>
+    		</table>
+    	</div>
+    	
+    	
+    </div>
+    
+    
+   <!-- asideElement fur die Suche Ergebnis --> 
+    <aside id="asideElement" style="display:none">
+        <div id="find-ride-container" style="width: 25em">
+            <h3>Eine Mitfahrgelegenheit suchen</h3>
+            
+            <!-- User Info -->
+            <div id="list">
+            	<div class="item"></div>
+            </div>
+            
+            <!-- Formular MitfahrSuche -->
+            <div class="formSuchen">
+            	<table>
+            		<tr>
+            			<td><label for="fahrt">nur Hinfahrt</label></td>
+            			<td><input id="fahrt" type="radio" ></td>
+            		</tr>
+            		
+            		<tr>
+            			<td><label for="ruckfahrt">nur Rückfahrt</label></td>
+            			<td><input id="ruckfahrt" type="radio" ></td>
+            		</tr>
+            		
+            		<tr>
+            			<td><label for="hinruckfahrt">Hin-/Rückfahrt</label></td>
+            			<td><input id="hinruckfahrt" type="radio" ></td>
+            		</tr>
+            		
+            		<tr>
+            			<td><label>Umkreis in km</label></td>
+            			<td><input type="number" id="distance"></td>
+            		</tr>
+            		
+            		<tr>
+            			<td><label>Wochentag</label></td>
+            			<td>
+            			
+            				<input list="weeks" >
+							  <datalist id="weeks">
+							    <option value="Montag">
+							    <option value="Dienstag">
+							    <option value="Mittwoch">
+							    <option value="Donnerstag">
+							    <option value="Freitag">
+							    <option value="Samstag">
+							    <option value="Sonntag">
+							  </datalist>
+            			
+            			</td>
+            		</tr>
+            		
+            		<tr>
+            			<td><label>Späteste Ankunft Hinfahrt (-1h)</label></td>
+            			<td><input type="time" id="time"/></td>
+            		</tr>
+            		
+            		<tr>
+            			<td><button type="button"  onclick="suchen()">Suchen</button></td>
+            		</tr>
+            	</table>
+            	<p><hr noshade></p>
+            
+            </div>
+        
+        	<!-- Ergebnis der Suche anzeigen -->
+
+			<div id="myTable">
+
+			</div>
+        	
+        	
+        </div>
+    </aside>
+
+
+</div>
+<!-- Bilder nach der Registrierung anzeigen  -->
+<script type="application/javascript">
+	document.querySelector("#profilbild").addEventListener("change",function () {
+		const reader = new FileReader();
+
+		reader.addEventListener("load",()=>{
+			 console.log(reader.result);
+
+			 document.getElementById("imageUser").innerHTML = `<img  width="100" height="100"  src="${reader.result}" alt=""/>`;
+
+			 sessionStorage.setItem("user_img",reader.result)
+
+
+			if (sessionStorage.getItem("user_img") != null){
+				document.getElementById("userImage").innerHTML = `<img  width="80" height="80"  src="${reader.result}" alt=""/>`;
+
+			}
+		})
+		reader.readAsDataURL(this.files[0]);
+	})
+</script>
+
+</body>
+</html>

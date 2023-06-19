@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+#grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows:  min-content 2fr min-content;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "header"
+    "main"
+    "aside";
+}
+
+@media screen and (min-width: 44em) {
+    #grid-container {
+        height: 100%;
+        display: grid;
+        grid-template-rows: min-content 1fr;
+        grid-template-columns: 1fr min-content;
+        grid-template-areas:
+        "header header"
+        "main   aside";
+    }
+}
+
+header {
+    background-color: #d8d8d8;
+    grid-area: header;
+    z-index: 1000;
+    box-shadow: 0 1px 5px #27272780;
+    min-height: 1.5rem;
+}
+
+main {
+    background-color: #f3e2a9;
+    grid-area: main;
+}
+
+aside {
+    background-color: #f3e2a9;
+    grid-area: aside;
+    z-index: 900;
+    box-shadow: 0 1px 5px #27272780;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#neuUserRegister{
+	position:absolute;
+	top:110px;
+	left:20px;
+	width:600px;
+	height:600px;
+	border: 2px solid black;
+	background-color:white;
+	margin-left:400px;
+	z-index:1000;
+}
+
+#hiddenBeforLogin1 {
+  overflow: hidden;
+  border: 1px solid #ccc;
+   background-color: #f1f1f1;
+}
+
+#hiddenBeforLogin1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+#hiddenBeforLogin1 button:hover {
+  background-color: #ddd;
+}
+
+
+#hiddenBeforLogin1 button.active {
+  background-color: #ccc;
+}
+#hiddenBeforLogin2{
+	margin-right:20px;
+}
+
+
